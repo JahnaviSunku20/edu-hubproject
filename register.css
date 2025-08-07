@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #f2f5f7;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 30px;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 600px;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+.course-form h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.course-form label {
+  display: block;
+  margin-top: 15px;
+  color: #444;
+  font-weight: 500;
+}
+
+.course-form input[type="text"],
+.course-form input[type="email"],
+.course-form input[type="tel"],
+.course-form input[type="date"],
+.course-form input[type="number"],
+.course-form input[type="file"],
+.course-form select,
+.course-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: border-color 0.3s;
+}
+
+.course-form input:focus,
+.course-form select:focus,
+.course-form textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.gender-group {
+  display: flex;
+  gap: 15px;
+  margin-top: 5px;
+}
+
+.terms {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.course-form button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 25px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.btn {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  padding: 12px;
+  background-color: #e42110;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 6px;
+  transition: background-color 0.3s;
+}
+
+.course-form button:hover {
+  background-color: #f31a16;
+}
+
